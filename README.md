@@ -1,3 +1,3 @@
 # PerfectHTTPDemo
 
-A description of this package.
+This is a sample programs using Perfect-HTTPServer.
