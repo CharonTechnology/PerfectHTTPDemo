@@ -15,6 +15,15 @@ let package = Package(
 		.target(
 			name: "PerfectHTTPDemo",
 			dependencies: ["PerfectHTTPServer"]),
+		.target(
+			name: "AsyncDemo",
+				dependencies: ["PerfectHTTPServer"]),
+		.target(
+			name: "EncodableDemo",
+				dependencies: ["PerfectHTTPServer"]),
+		.target(
+			name: "DecodableDemo",
+				dependencies: ["PerfectHTTPServer"]),
 		.testTarget(
 			name: "PerfectHTTPDemoTests",
 			dependencies: ["PerfectHTTPDemo"]),
